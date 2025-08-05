@@ -1,3 +1,7 @@
+## clear screen
+```
+cls
+```
 ## clean list of filenames
 ```
 dir /b
