@@ -8,17 +8,21 @@ Run the following commands step by step in your terminal to install and log in t
 ## Run these commands one by one in your terminal:
 ```bash
 type -p curl >/dev/null || sudo apt install curl -y
-
+```
+```bash
 curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | \
   sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg
-
+```
+```bash
 sudo chmod go+r /usr/share/keyrings/githubcli-archive-keyring.gpg
-
+```
+```bash
 echo "deb [arch=$(dpkg --print-architecture) \
 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] \
 https://cli.github.com/packages stable main" | \
 sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null
-
+```
+```bash
 sudo apt update
 sudo apt install gh -y
 ```
