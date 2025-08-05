@@ -5,7 +5,7 @@ To make git user friendly
 sudo apt install openjdk-21-jdk-headless
 ```
 
-#vi - Backspace
+# vi - Backspace
 
 ```bash
     vi ~/.vimrc
