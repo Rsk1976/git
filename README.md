@@ -1,16 +1,6 @@
-# git
-To make git user friendly
-# to install JAVA
-```bash
-sudo apt install openjdk-21-jdk-headless
+## clean list of filenames
 ```
-
-# vi - Backspace
-
-```bash
-    vi ~/.vimrc
+dir /b
 ```
-```bash
-    set nocompatible
-    set backspace=indent,eol,start
-```
+## other basic comments
+https://g.co/gemini/share/cc1bbb2baed1
