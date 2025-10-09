@@ -46,3 +46,44 @@ Set-ExecutionPolicy RemoteSigned CurrentUser
 ```
 
 https://youtu.be/Vdd3b4TwaI4?si=THYUJQaOc5OW7Jb7
+
+
+
+
+
+
+Make It Default on Startup
+
+To make WSL always start in S:\Linux:
+
+
+Open .bashrc in your home folder:
+``` bash
+nano ~/.bashrc
+```
+
+Add this line at the end:
+``` bash
+cd /mnt/s/Linux
+```
+
+```
+Save (Ctrl+O) and exit (Ctrl+X).
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
